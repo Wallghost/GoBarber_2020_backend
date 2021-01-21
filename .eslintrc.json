@@ -23,6 +23,7 @@
     "prettier"
   ],
   "rules": {
+    "no-useless-constructor": "off",
     "@typescript-eslint/camelcase": "off",
     "prettier/prettier": "error",
     "class-methods-use-this": "off",
@@ -30,6 +31,12 @@
       "error",
       {
         "argsIgnorePattern": "_"
+      }
+    ],
+    "@typescript-eslint/interface-name-prefix": [
+      "error",
+      {
+        "prefixWithI": "always"
       }
     ],
     "import/extensions": [
